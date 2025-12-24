@@ -1,0 +1,12 @@
+Types of Machine Learning
+There are three main types of machine learning which are as follows:
+
+1. Supervised learning
+Supervised learning trains a model using labeled data where each input has a known correct output. The model learns by comparing its predictions with these correct answers and improves over time. It is used for both classification and regression problems.
+
+2. Unsupervised learning:
+Unsupervised learning works with unlabeled data where no correct answers or categories are provided. The model's job is to find the data, hidden patterns, similarities or groups on its own. This is useful in scenarios where labeling data is difficult or impossible. Common applications are clustering and association.
+
+3. Reinforcement Learning
+Reinforcement Learning (RL) trains an agent to make decisions by interacting with an environment. Instead of being told the correct answers, agent learns by trial and error method and gets rewards for good actions and penalties for bad ones. Over time it develops a strategy to maximize rewards and achieve goals. This approach is good for problems having sequential decision making such as robotics, gaming and autonomous systems.
+

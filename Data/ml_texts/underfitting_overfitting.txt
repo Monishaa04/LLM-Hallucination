@@ -1,0 +1,20 @@
+What is Underfitting?
+Underfitting happens when the model fails to learn important patterns. It performs poorly on both training and testing data. Underfitting happens due to:
+
+Model is too simple
+Very high regularization
+Features are weak or missing
+Not enough training
+High bias
+Bias: It is like assuming all birds can only be small and fly, so the model fails to recognize big birds like ostriches or penguins that can't fly and get biased with predictions.
+
+
+What is Overfitting?
+Overfitting happens when the model learns too much from the training data, including noise and outliers. It performs very well on training data but poorly on test data. Overfitting happens due to:
+
+Model too complex
+Too many features
+Very little data
+No regularization
+High variance
+Variance: Error that happens when a machine learning model learns too much from the data, including random noise. 

@@ -1,0 +1,15 @@
+Regularization is a technique used in machine learning to prevent overfitting, which otherwise causes models to perform poorly on unseen data. By adding a penalty for complexity, regularization encourages simpler and more generalizable models.
+
+Prevents overfitting: Adds constraints to the model to reduce the risk of memorizing noise in the training data.
+Improves generalization: Encourages simpler models that perform better on new, unseen data.
+
+
+Benefits of Regularization
+Now, let’s see various benefits of regularization which are as follows:
+
+Prevents Overfitting: Regularization helps models focus on underlying patterns instead of memorizing noise in the training data.
+Enhances Performance: Prevents excessive weighting of outliers or irrelevant features helps in improving overall model accuracy.
+Stabilizes Models: Reduces sensitivity to minor data changes which ensures consistency across different data subsets.
+Prevents Complexity: Keeps model from becoming too complex which is important for limited or noisy data.
+Handles Multicollinearity: Reduces the magnitudes of correlated coefficients helps in improving model stability.
+Promotes Consistency: Ensures reliable performance across different datasets which reduces the risk of large performance shifts.

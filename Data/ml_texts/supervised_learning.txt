@@ -1,0 +1,51 @@
+Supervised learning is a type of machine learning where a model learns from labelled data—meaning every input has a corresponding correct output. The model makes predictions and compares them with the true outputs, adjusting itself to reduce errors and improve accuracy over time. The goal is to make accurate predictions on new, unseen data. For example, a model trained on images of handwritten digits can recognise new digits it has never seen before.
+
+Types of Supervised Learning in Machine Learning
+Now, Supervised learning can be applied to two main types of problems:
+
+Classification: Where the output is a categorical variable (e.g., spam vs. non-spam emails, yes vs. no).
+Regression: Where the output is a continuous variable (e.g., predicting house prices, stock prices).
+difff
+Types of Supervised Learning
+While training the model, data is usually split in the ratio of 80:20 i.e. 80% as training data and the rest as testing data. In training data, we feed input as well as output for 80% of data. The model learns from training data only. 
+
+Working of Supervised Machine Learning
+The working of supervised machine learning follows these key steps:
+
+1. Collect Labeled Data
+Gather a dataset where each input has a known correct output (label).
+Example: Images of handwritten digits with their actual numbers as labels.
+2. Split the Dataset
+Divide the data into training data (about 80%) and testing data (about 20%).
+The model will learn from the training data and be evaluated on the testing data.
+3. Train the Model
+Feed the training data (inputs and their labels) to a suitable supervised learning algorithm (like Decision Trees, SVM or Linear Regression).
+The model tries to find patterns that map inputs to correct outputs.
+4. Validate and Test the Model
+Evaluate the model using testing data it has never seen before.
+The model predicts outputs and these predictions are compared with the actual labels to calculate accuracy or error.
+5. Deploy and Predict on New Data
+Once the model performs well, it can be used to predict outputs for completely new, unseen data.
+Supervised Machine Learning Algorithms
+Supervised learning can be further divided into several different types, each with its own unique characteristics and applications. Here are some of the most common types of supervised learning algorithms:
+
+Practical Examples of Supervised learning
+Fraud Detection in Banking: Utilizes supervised learning algorithms on historical transaction data, training models with labeled datasets of legitimate and fraudulent transactions to accurately predict fraud patterns.
+Parkinson Disease Prediction: Parkinson’s disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves.
+Customer Churn Prediction: Uses supervised learning techniques to analyze historical customer data, identifying features associated with churn rates to predict customer retention effectively.
+Cancer cell classification: Implements supervised learning for cancer cells based on their features and identifying them if they are ‘malignant’ or ‘benign.
+Stock Price Prediction: Applies supervised learning to predict a signal that indicates whether buying a particular stock will be helpful or not.
+
+Advantages
+Simplicity & clarity: Easy to understand and implement since it learns from labeled examples.
+High accuracy: When sufficient labeled data is available, models achieve strong predictive performance.
+Versatility: Works for both classification like spam detection, disease prediction and regression like price forecasting.
+Generalization: With enough diverse data and proper training, models can generalize well to unseen inputs.
+Wide application: Used in speech recognition, medical diagnosis, sentiment analysis, fraud detection and more.
+
+Disadvantages
+Requires labeled data: Large amounts of labeled datasets are expensive and time-consuming to prepare.
+Bias from data: If training data is biased or unbalanced, the model may learn and amplify those biases.
+Overfitting risk: Model may memorize training data instead of learning general patterns, especially with small datasets.
+Limited adaptability: Performance drops significantly when applied to data distributions very different from training data.
+Not scalable for some problems: In tasks with millions of possible labels like natural language, supervised labeling becomes impractical.

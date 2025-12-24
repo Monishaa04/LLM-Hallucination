@@ -1,0 +1,9 @@
+Importance of Data in Machine Learning
+Data is the foundation of machine learning (ML) without quality data ML models cannot learn, perform or make accurate predictions.
+
+Data provides the examples from which models learn patterns and relationships.
+High-quality and diverse data improves how well models perform and generalize to new situations.
+It helps models to understand real-world scenarios and adapt to practical uses.
+Features extracted from data are important for effective training.
+Separate datasets for validation and testing measure how well the model works on unseen data.
+Data drives continuous improvements in models through feedback loops.

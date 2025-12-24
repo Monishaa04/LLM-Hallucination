@@ -1,0 +1,14 @@
+# Ignore Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Common Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Optional: environment files with secrets
+.env

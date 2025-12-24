@@ -1,0 +1,93 @@
+Classification Metrics
+Classification problems aim to predict discrete categories. To evaluate the performance of classification models, we use the following metrics:
+
+1. Accuracy
+Accuracy is a fundamental metric used for evaluating the performance of a classification model. It tells us the proportion of correct predictions made by the model out of all predictions.
+While accuracy provides a quick snapshot, it can be misleading in cases of imbalanced datasets. For example, in a dataset with 90% class A and 10% class B, a model predicting only class A will still achieve 90% accuracy but it will fail to identify any class B instances.
+
+Accuracy is good but it gives a False Positive sense of achieving high accuracy. The problem arises due to the possibility of misclassification of minor class samples being very high.
+
+2. Precision
+It measures how many of the positive predictions made by the model are actually correct. It's useful when the cost of false positives is high such as in medical diagnoses where predicting a disease when it’s not present can have serious consequences.
+Precision= TP+FP/TP
+Where:
+TP = True Positives
+FP = False Positives
+Precision helps ensure that when the model predicts a positive outcome, it’s likely to be correct.
+
+3. Recall
+Recall or Sensitivity measures how many of the actual positive cases were correctly identified by the model. It is important when missing a positive case (false negative) is more costly than false positives.
+
+Recall= TP+FN/TP
+​Where:
+FN = False Negatives
+In scenarios where catching all positive cases is important (like disease detection), recall is a key metric.
+
+4. F1 Score
+The F1 Score is the harmonic mean of precision and recall. It is useful when we need a balance between precision and recall as it combines both into a single number. A high F1 score means the model performs well on both metrics. Its range is [0,1].
+Lower recall and higher precision gives us great accuracy but then it misses a large number of instances. More the F1 score better will be performance. It can be expressed mathematically in this way:
+
+F1 Score=2× Precision+Recall/Precision×Recall
+ 
+5. Logarithmic Loss (Log Loss)
+Log loss measures the uncertainty of the model’s predictions. It is calculated by penalizing the model for assigning low probabilities to the correct classes. This metric is used in multi-class classification and is helpful when we want to assess a model’s confidence in its predictions. If there are N  samples belonging to the M class, then we calculate the Log loss in this way:
+
+
+6. Area Under Curve (AUC) and ROC Curve
+It is useful for binary classification tasks. The AUC value represents the probability that the model will rank a randomly chosen positive example higher than a randomly chosen negative example. AUC ranges from 0 to 1 with higher values showing better model performance.
+
+1. True Positive Rate(TPR)
+
+Also known as sensitivity or recall, the True Positive Rate measures how many actual positive instances were correctly identified by the model. It answers the question: "Out of all the actual positive cases, how many did the model correctly identify?"
+    
+TPR= TP+FN/TP
+Where:
+TP = True Positives (correctly predicted positive cases)
+FN = False Negatives (actual positive cases incorrectly predicted as negative)
+
+2. True Negative Rate(TNR)
+
+Also called specificity, the True Negative Rate measures how many actual negative instances were correctly identified by the model. It answers the question: "Out of all the actual negative cases, how many did the model correctly identify as negative?"
+ 
+TNR=TN+FP/TN
+Where:
+TN = True Negatives (correctly predicted negative cases)
+FP = False Positives (actual negative cases incorrectly predicted as positive)
+
+3. False Positive Rate(FPR)
+
+It measures how many actual negative instances were incorrectly classified as positive. It’s a key metric when the cost of false positives is high such as in fraud detection.
+
+FPR=FP+TN/FP
+​Where:
+
+FP = False Positives (incorrectly predicted positive cases)
+TN = True Negatives (correctly predicted negative cases)
+
+4. False Negative Rate(FNR)
+
+It measures how many actual positive instances were incorrectly classified as negative. It answers: "Out of all the actual positive cases, how many were misclassified as negative?"
+
+FNR= FN+TP/FN
+Where:
+
+FN = False Negatives (incorrectly predicted negative cases)
+TP = True Positives (correctly predicted positive cases)
+
+5. ROC Curve
+
+It is a graphical representation of the True Positive Rate (TPR) vs the False Positive Rate (FPR) at different classification thresholds. The curve helps us visualize the trade-offs between sensitivity (TPR) and specificity (1 - FPR) across various thresholds. Area Under Curve (AUC) quantifies the overall ability of the model to distinguish between positive and negative classes.
+
+AUC = 1: Perfect model (always correctly classifies positives and negatives).
+AUC = 0.5: Model performs no better than random guessing.
+AUC < 0.5: Model performs worse than random guessing (showing that the model is inverted).
+ROC Curve for Evaluation of Classification Models
+ROC Curve for Evaluation of Classification Models
+
+6. Confusion Matrix
+Confusion matrix creates a N X N matrix, where N is the number of classes or categories that are to be predicted. Here we have N = 2, so we get a 2 X 2 matrix. Suppose there is a problem with our practice which is a binary classification. Samples of that classification belong to either Yes or No. So, we build our classifier which will predict the class for the new input sample. After that, we tested our model with 165 samples and we get the following result.
+
+True Positives: It is the case where we predicted Yes and the real output was also Yes.
+True Negatives: It is the case where we predicted No and the real output was also No.
+False Positives: It is the case where we predicted Yes but it was actually No.
+False Negatives: It is the case where we predicted No but it was actually Yes. 

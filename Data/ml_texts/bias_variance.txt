@@ -1,0 +1,32 @@
+Bias
+Bias is the error that occurs when a model is too simple to capture the true patterns in the data.
+
+High bias: The model oversimplifies, misses patterns and underfits the data.
+Low bias: The model captures patterns well and is closer to the true values.
+Example: A neural network with too few layers or neurons fails to capture complex patterns, producing consistently inaccurate outputs. This is called underfitting.
+
+How to Reduce Bias?
+Some methods to lower bias in models are:
+
+Use More Complex Models: Use models capable of capturing non-linear relationships such as neural networks or ensemble methods.
+Add Relevant Features: Include additional informative features in the training data to give the model for capturing underlying patterns.
+Adjust Regularization Strength: Reduce regularization to allow the model more flexibility in fitting the data.
+Variance
+Variance arises when a model becomes too sensitive to training data and it captures noises in data too. It fails to give prediction on unseen new data.
+
+High variance: The model is too sensitive to small changes and may overfit.
+Low variance: The model is more stable but might miss some patterns.
+Example: A deep decision tree that memorizes the training data perfectly but performs poorly on new data shows high variance, this is known as overfitting.
+
+How to Reduce Variance?
+Some methods to lower variance are:
+
+Simplify the Model: Use a simpler model or prune overly deep decision trees to avoid overfitting.
+Increase Training Data: Collect more data to stabilize learning and make the model generalize better.
+Apply Regularization: Use L1 or L2 regularization to constrain model complexity and prevent overfitting.
+Use Ensemble Methods: Implement techniques like bagging or random forests to combine multiple models and balance bias–variance trade-offs.
+
+Bias Variance Tradeoff
+The bias–variance tradeoff refers to the balance between bias and variance in a machine learning model.
+High bias leads to underfitting, while high variance leads to overfitting.
+The objective is to choose a model complexity that minimizes total prediction error.

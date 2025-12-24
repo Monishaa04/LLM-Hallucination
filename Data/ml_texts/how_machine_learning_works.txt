@@ -1,0 +1,12 @@
+What Makes a Machine "Learn"?
+A machine "learns" by identifying patterns in data and improving its ability to perform specific tasks without being explicitly programmed for every scenario. This learning process helps machines to make accurate predictions or decisions based on the information they receive. Unlike traditional programming where instructions are fixed, ML allows models to adapt and improve through experience.
+
+Here is how the learning process works:
+
+Data Input: Machine needs data like text, images or numbers to analyze. Good quality and enough quantity of data are important for effective learning.
+Algorithms: Algorithms are mathematical methods that help the machine find patterns in data. Different algorithms help different tasks such as classification or regression.
+Model Training: During training, the machine adjusts its internal settings to better predict outcomes. It learns by reducing the difference between its predictions and actual results.
+Feedback Loop: Machine compares its predictions with true outcomes and uses this feedback to correct errors. Techniques like gradient descent help it update and improve.
+Experience and Iteration: Machine repeats training many times with data helps in refining its predictions with each pass, more data and iterations improve accuracy.
+Evaluation and Generalization: Model is tested on unseen data to ensure it performs well on real-world tasks.
+Machines "learn" by continuously increasing their understanding through data-driven iterations like how humans learn from experience.

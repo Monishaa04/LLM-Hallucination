@@ -1,0 +1,10 @@
+Applications of Machine Learning
+
+Machine Learning is used in many industries to solve problems and improve services. Here are some common real-world applications:
+
+Healthcare: It helps doctors to diagnose diseases from medical images like X-rays and MRIs. It also predicts patient outcomes and personalizes treatments which improves healthcare quality.
+Finance: In finance it detects fraudulent transactions in real time and supports algorithmic trading. It also helps to assess credit risk helps in making lending safer and faster.
+Retail and E-Commerce: It helps in personalized product recommendations and forecasts demand to optimize inventory and also analyzes customer sentiment to improve shopping experiences.
+Transportation and Automotive: Self-driving cars rely on ML to navigate and make decisions. It optimizes delivery routes and predicts vehicle maintenance needs which reduces downtime.
+Social Media and Entertainment: Platforms like Netflix and YouTube use ML to recommend content we'll enjoy. It enables image and speech recognition for better user interaction.
+Manufacturing: It improves quality control by detecting defects in products automatically and predicts machine failures in advance and helps in production processes.

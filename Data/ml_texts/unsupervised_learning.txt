@@ -1,0 +1,50 @@
+Unsupervised Learning is a type of machine learning where the model works without labelled data. It learns patterns on its own by grouping similar data points or finding hidden structures without any human intervention.
+
+It is used for tasks like clustering, dimensionality reduction and Association Rule Learning.
+Helps identify hidden patterns in data
+Useful for grouping, compression and anomaly detection
+unsupervised_learning
+Unsupervised Learning
+The image shows set of animals like elephants, camels and cows that represents raw data that the unsupervised learning algorithm will process.
+
+The "Interpretation" stage signifies that the algorithm doesn't have predefined labels or categories for the data. It needs to figure out how to group or organize the data based on inherent patterns.
+An algorithm represents unsupervised learning process that helps to identify patterns in the data.
+The processing stage shows the algorithm working on the data.
+The output shows the results of the unsupervised learning process. In this case, the algorithm might have grouped the animals into clusters based on their species (elephants, camels, cows).
+
+Working of Unsupervised Learning
+The working of unsupervised machine learning can be explained in these steps:
+
+1. Collect Unlabeled Data
+Gather a dataset without predefined labels or categories.
+Example: Images of various animals without any tags.
+2. Select an Algorithm
+Choose a suitable unsupervised algorithm such as clustering like K-Means, association rule learning like Apriori or dimensionality reduction like PCA based on the goal.
+3. Train the Model on Raw Data
+Feed the entire unlabeled dataset to the algorithm.
+The algorithm looks for similarities, relationships or hidden structures within the data.
+4. Group or Transform Data
+The algorithm organizes data into groups (clusters), rules or lower-dimensional forms without human input.
+Example: It may group similar animals together or extract key patterns from large datasets.
+5. Interpret and Use Results
+Analyze the discovered groups, rules or features to gain insights or use them for further tasks like visualization, anomaly detection or as input for other models.
+
+Applications of Unsupervised learning
+Unsupervised learning has diverse applications across industries and domains. Key applications include:
+Customer Segmentation: Algorithms cluster customers based on purchasing behavior or demographics, enabling targeted marketing strategies.
+Anomaly Detection: Identifies unusual patterns in data, aiding fraud detection, cybersecurity and equipment failure prevention.
+Recommendation Systems: Suggests products, movies or music by analyzing user behavior and preferences.
+Image and Text Clustering: Groups similar images or documents for tasks like organization, classification or content recommendation.
+Social Network Analysis: Detects communities or trends in user interactions on social media platforms.
+Advantages
+No need for labeled data: Works with raw, unlabeled data hence saving time and effort on data annotation.
+Discovers hidden patterns: Finds natural groupings and structures that might be missed by humans.
+Handles complex and large datasets: Effective for high-dimensional or vast amounts of data.
+Useful for anomaly detection: Can identify outliers and unusual data points without prior examples.
+
+Challenges
+Here are the key challenges of unsupervised learning:
+Noisy Data: Outliers and noise can distort patterns and reduce the effectiveness of algorithms.
+Overfitting Risk: Overfitting can occur when models capture noise instead of meaningful patterns in the data.
+Limited Guidance: The absence of labels restricts the ability to guide the algorithm toward specific outcomes.
+Cluster Interpretability: Results such as clusters may lack clear meaning or alignment with real-world categories.
