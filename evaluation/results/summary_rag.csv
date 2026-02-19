@@ -1,0 +1,6 @@
+mean_acc_sim,0.4404462819517243
+mean_hallucination,0.64281315
+mean_sentence_coverage,0.2831168831168831
+mean_concept_overlap,0.822835209792242
+mean_retrieval_confidence,0.4935409170732115
+mean_final_trust,0.5665026536020292

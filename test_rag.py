@@ -2,10 +2,11 @@ from rag_pipeline import answer_question
 
 questions = [
     "What is supervised learning?",
-    "Explain supervised learning",
-    "Explain bias variance tradeoff",
-    "What is reinforcement learning?",
-    "What is quantum machine learning?"
+    "What is gradient descent?",
+    "What is SMOTE?",
+    "What is feature selection?",
+    "Explain bias variance tradeoff", 
+    "What is quantum physics?"
 ]
 
 for q in questions:
