@@ -4,3 +4,8 @@ numpy
 transformers
 torch
 nltk
+PyMuPDF
+tqdm
+
+#python data/import_pdfs.py
+#python build_embeddings.py

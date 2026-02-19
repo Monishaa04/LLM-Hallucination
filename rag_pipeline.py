@@ -16,7 +16,7 @@ embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 index = faiss.read_index("embeddings/ml_index.faiss")
 documents = pickle.load(open("embeddings/docs.pkl", "rb"))
 
-def retrieve_chunks_with_confidence(question, k=3):
+def retrieve_chunks_with_confidence(question, k=5):
     q_emb = embed_model.encode([question])
     distances, indices = index.search(q_emb, k)
 
