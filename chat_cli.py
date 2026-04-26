@@ -3,6 +3,12 @@ from rag_pipeline import answer_question
 def print_bot_response(result):
     print("\n🤖 RAG Assistant:")
     print(result["answer"])
+    print("\n📈 Metrics:")
+    print(" - Semantic Similarity:", result.get("semantic_similarity"))
+    print(" - Sentence Coverage:", result.get("sentence_coverage"))
+    print(" - Concept Overlap:", result.get("concept_overlap"))
+    print(" - Retrieval Confidence:", result.get("retrieval_confidence"))
+
     print("\n📊 Trust Score:", round(result["final_trust_score"], 3))
     print("🔎 Trust Level:", result["trust_level"])
     print("-" * 60)
